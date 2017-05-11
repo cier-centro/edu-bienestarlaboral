@@ -1,0 +1,355 @@
+h2.title {
+    display: none;
+}
+/*menu*/
+.site-bienestar-laboral .main-menu{
+  z-index: 10;
+  position: relative;
+  width: 700px;
+  margin: auto;
+  -webkit-box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
+  box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform:translate3d(0,0,0);
+  -ms-transform:translate3d(0,0,0);
+  margin-bottom: 25px;
+}
+.site-bienestar-laboral .main-menu > .pane-content > ul > li:first-child a{
+  -webkit-border-radius: 20px 0 0 0;
+  border-radius: 20px 0 0 0;
+}
+.site-bienestar-laboral .main-menu > .pane-content > ul > li{
+  -webkit-border-radius: 20px 0 0 0;
+  border-radius: 20px 0 0 0;
+}
+.site-bienestar-laboral .main-menu > .pane-content > ul > li:last-child a{
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
+}
+.site-bienestar-laboral .main-menu > .pane-content > ul > li:last-child{
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
+}
+/*slider*/
+.site-bienestar-laboral #primera_infancia_home_slider {
+	height: 450px;
+  overflow: hidden;
+}
+ .site-bienestar-laboral #primera_infancia_home_slider .views-slideshow-controls-top {
+  position: relative;
+	top: 165px;
+	width: 100%;
+  z-index: 10;
+	padding: 0 0%;
+}
+.site-bienestar-laboral #primera_infancia_home_slider  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
+	position: relative;
+    top: -20px;
+}
+.site-bienestar-laboral #primera_infancia_home_slider .views-slideshow-controls-text-pause {
+		display: none;
+}
+.site-bienestar-laboral #primera_infancia_home_slider .views_slideshow_controls_text_next {
+		float: right;
+}
+.site-bienestar-laboral #primera_infancia_home_slider .views-slideshow-controls-text-previous a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/slider-btn-back.png") no-repeat center center / contain;
+}
+.site-bienestar-laboral #primera_infancia_home_slider .views-slideshow-controls-text-next a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/slider-btn-next.png") no-repeat center center / contain;
+}
+.site-bienestar-laboral #primera_infancia_home_slider{
+  margin: -120px 0 10px 0;
+  overflow: hidden;
+}
+.site-bienestar-laboral #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
+		position: absolute;
+		top: 330px;
+		width: 100%;
+		/*right: 12%;*/
+		background-color: rgba(5, 171, 153, 0.5);
+		padding: 15px 30px;
+    color:#ffffff;
+    min-height: 100px;
+}
+.site-bienestar-laboral #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body p {
+  color:#ffffff!important;
+}
+.site-bienestar-laboral #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
+	z-index:100;
+}
+/*social buttons*/
+.site-bienestar-laboral .social-butons{
+  height: 100px;
+  background: url("../img/bg-social.png") no-repeat left center #5bd6c1;
+  display: block;
+}
+.site-bienestar-laboral .social-butons .btn-info{
+  background: #ff6e5f;
+  -webkit-box-shadow: 0 5px 2px 0 #ef4343;
+  box-shadow: 0 5px 2px 0 #ef4343;
+  float: right;
+  border-color: transparent;
+  margin: 30px 60px 25px -30px;
+  padding: 6px 25px;
+}
+.site-bienestar-laboral .social-butons .btn-twitter span, .site-bienestar-laboral .social-butons .btn-facebook span, .site-bienestar-laboral .social-butons .btn-youtube span{
+  display: none;
+}
+.site-bienestar-laboral .social-butons .btn-twitter, .site-bienestar-laboral .social-butons .btn-facebook, .site-bienestar-laboral .social-butons .btn-youtube{
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: block;
+  margin:20px 5px;
+}
+.site-bienestar-laboral .social-butons .btn-twitter{
+  background: url("../img/ico-twitter.png") no-repeat center center / contain;
+}
+.site-bienestar-laboral .social-butons .btn-facebook{
+  background: url("../img/ico-face.png") no-repeat center center / contain;
+}
+.site-bienestar-laboral .social-butons .btn-youtube{
+  background: url("../img/ico-youtube.png") no-repeat center center / contain;
+}
+/* tip pedagogico, preescolar es una nota y documentos de referencia*/
+.site-bienestar-laboral .pedagogical-tip, .site-bienestar-laboral .pedagogical-tip{
+    background: url("../img/img-tip-teacher.png") no-repeat;
+    background-color: #f9ede5;
+    background-position: 90% 0px;
+}
+/* slider tip pedagogico */
+.site-bienestar-laboral .pedagogical-tip {
+	height: 245px;
+  padding: 10px 25px;
+  overflow: hidden;
+}
+ .site-bienestar-laboral .pedagogical-tip .views-slideshow-controls-top {
+  position: relative;
+	top: 80px;
+	width: 100%;
+  z-index: 10;
+	padding: 0 0%;
+}
+.site-bienestar-laboral .pedagogical-tip  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
+	position: relative;
+    top: -20px;
+}
+.site-bienestar-laboral .pedagogical-tip .views-slideshow-controls-text-pause {
+		display: none;
+}
+.site-bienestar-laboral .pedagogical-tip .views_slideshow_controls_text_next {
+		float: right;
+}
+.site-bienestar-laboral .pedagogical-tip .views-slideshow-controls-text-previous a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/slider-tip-btn-back.png") no-repeat center center / contain;
+}
+.site-bienestar-laboral .pedagogical-tip .views-slideshow-controls-text-next a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/slider-tip-btn-next.png") no-repeat center center / contain;
+}
+.site-bienestar-laboral .pedagogical-tip .views-field .field-content p, .site-bienestar-laboral .pedagogical-tip .pedagogical-tip-title a{
+  padding:10px 20px 20px 30px;
+  width: 70%;
+  background: #05ab99;
+  color:#ffffff!important;
+  margin-left: 60px!important;
+}
+.site-bienestar-laboral .pedagogical-tip .views-field.views-field-body{
+  margin-top: -11px;
+}
+.site-bienestar-laboral .pedagogical-tip .pedagogical-tip-title a:hover{
+  text-decoration: none;
+}
+.site-bienestar-laboral .pedagogical-tip .pedagogical-tip-title a{
+  border-bottom: 1px solid #ffffff;
+  display: block;
+  text-transform: uppercase;
+  text-align: left;
+  padding:5px 10px 5px 30px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+.site-bienestar-laboral .preschool-home-content{
+  background: #f9ede5;
+  padding: 10px 25px;
+}
+.site-bienestar-laboral .preschool-home-content h2{
+  background: #f78747;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  margin: 0px;
+  padding:5px 20px;
+  font-weight: bold;
+  margin: 0px -15px 0 0;
+}
+.site-bienestar-laboral .preschool-home-content h3{
+  margin:15px 0px;
+  text-transform: uppercase;
+  color:#000000;
+  font-weight: bold;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white{
+  background-color: white;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white p, .site-bienestar-laboral .preschool-home-content .bg-white h3{
+  margin:15px!important;
+}
+.site-bienestar-laboral .preschool-home-content .tecnical-documents{}
+.site-bienestar-laboral .preschool-home-content .tecnical-documents h3{
+  background: #ff6e5f;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin: 0px -15px !important;
+}
+.site-bienestar-laboral .events-content{
+  margin:15px 0;
+}
+.site-bienestar-laboral .events-content .pane-content{
+  height: 335px;
+  overflow-y: scroll;
+}
+.site-bienestar-laboral .events-content h2{
+  display:block;
+  background: #05ab99 url("../img/ico-eventos.png") no-repeat;
+  background-position: 100px -5px;
+  color:#ffffff;
+  text-transform: uppercase;
+  margin: 0px 0 0 -15px;
+  padding:5px 15px;
+}
+.site-bienestar-laboral .events-content .views-row{
+  margin: 10px 0px;
+  max-height: 145px;
+  overflow: hidden;
+}
+.site-bienestar-laboral .events-content .views-row img, .site-bienestar-laboral .events-content .views-row a, .site-bienestar-laboral .events-content .views-row p{
+  display: inline;
+}
+.site-bienestar-laboral .events-content .views-row img{
+  /*width: 30%;*/
+}
+.site-bienestar-laboral .events-content .views-row a, .site-bienestar-laboral .events-content .views-row p{
+  width: 70%;
+}
+.site-bienestar-laboral .preschool-home-content .col-md-4.bg-white {
+  width: 32%;
+}
+.site-bienestar-laboral .preschool-home-content .col-md-8.bg-white{
+  width: 65%;
+  margin-right: 15px;
+}
+.site-bienestar-laboral .library{
+  display: block;
+  background: url("../img/bg-library.jpg") no-repeat;
+  height: 370px;
+  margin: 15px 0;
+}
+.site-bienestar-laboral .library span{
+  -webkit-font-smoothing:initial!important;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.2);
+  line-height: 33px;
+  color:#4b396d;
+  margin: 0px -15px;
+  padding: 5px 20px;
+  display: inline-block;
+  font-size: 22px;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents h3{
+  margin: 0 -15px!important;
+  padding: 10px 20px;
+  width: 320px;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents ul li{
+  background: #b2e6f9;
+  margin:10px 0;
+  height: 88px;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents .boddy-doc{
+  width: 57%;
+  display:inline-block;
+  height: 85px;
+  overflow: hidden;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents .boddy-doc p{
+  padding:0px;
+  margin: 5px!important;
+}
+.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents .dwd-icon{
+  width: 22%;
+  display: flex;
+  background: #5bd6c1 center / contain;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+.site-bienestar-laboral .tabs-childrens .pane-content .item-list{
+  margin-top: 20px;
+}
+.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li{
+  top:0px!important;
+  border:none;
+  /*border-bottom: 1px solid #b3b3b3;*/
+  background: #ffffff;
+  line-height: 40px;
+}
+.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li.active{
+  border: 1px solid #b3b3b3;
+  border-bottom: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  height: 45px;
+}
+.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li a{
+  border-bottom: none;
+  text-decoration: none;
+}
+.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li a:hover, .site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li a:focus{
+  text-decoration: none;
+}
+.site-bienestar-laboral .tabs-childrens .quicktabs_main{
+  padding:20px;
+  margin: 0px;
+  border: 1px solid #b3b3b3;
+  margin-top: -1px;
+  border-top: 0px;
+}
+.site-bienestar-laboral .section_content p{
+  margin-top: 10px!important;
+  color:#666666!important;
+}
+.site-bienestar-laboral .section_content p.lead{
+  font-size: 18px;
+  margin: 10px 20px !important;
+}
+/*Niños y niñas*/
+.site-bienestar-laboral .modal-cont-boys-girls{
+  background: #a6e2f4 url(../img/bg-ninos-ninas.png) no-repeat center bottom;
+  position: relative;
+  top: -100px;
+  min-height: 650px;
+}
