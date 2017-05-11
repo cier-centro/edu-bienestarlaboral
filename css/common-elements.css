@@ -179,7 +179,7 @@
 }
 .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:last-child{border-bottom:none;}
 .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a:hover{
-  background: ##D75700 !important;
+  background: #D75700 !important;
   color: white !important;
   padding: 18px 15px!important;
   display: block;
