@@ -2,6 +2,11 @@ h2.title {
     display: none;
 }
 /*menu*/
+
+.site-bienestar-laboral #microsite_panel .pane-content > .menu {
+  background-color: #E38100 !important;
+}
+
 .site-bienestar-laboral .main-menu{
   z-index: 10;
   position: relative;
