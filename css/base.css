@@ -389,3 +389,25 @@ h2.title {
     padding: 10px 5px !important;
   }
 }
+.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-2.col-md-3.lateral-panel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-3.col-md-9.panel-content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+div#microsite_panel {
+    background-color: rgb(235,249,249);
+}
+
+ul.nav.nav-tabs a {
+    background-color: rgb(242,110,1);
+    color: white;
+}
+.site-bienestar-laboral .tab-content {
+    background-color: white;
+}
+condensed-fix.css:14
