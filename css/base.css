@@ -379,4 +379,13 @@ h2.title {
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100%;
   }
+
+  .site-bienestar-laboral .section_container.no_left_sidebar .section_content {
+    width: 100% !important;
+  }
+
+  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > a,
+  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a {
+    padding: 10px 5px !important;
+  }
 }

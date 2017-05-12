@@ -155,7 +155,7 @@
 }
 .site-bienestar-laboral .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .site-bienestar-laboral #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
-  top: 93%;
+  top: 95%;
 	height:0px;
   background: transparent;
 }
@@ -171,9 +171,7 @@
   height: auto;
   padding: 15px;
 }
-.site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li{
-  background-color: rgba(255,255,255,0.5);
-	border-bottom: solid 1px #B7CF80;
+.site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li {
   display: block;
 }
 .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:first-child{
