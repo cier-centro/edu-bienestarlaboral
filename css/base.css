@@ -4,7 +4,17 @@ h2.title {
 /*menu*/
 
 .site-bienestar-laboral #microsite_panel .pane-content > .menu {
-  background-color: #E38100 !important;
+  background-color: #F26E01 !important;
+}
+
+.site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > a {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 17px 5px !important;
+  font-size: 15px !important;
+}
+
+.site-bienestar-laboral #microsite_panel .pane-content > .menu li.expanded > a:hover {
+    background-color: #f65600;
 }
 
 .site-bienestar-laboral .main-menu{
@@ -357,4 +367,16 @@ h2.title {
   position: relative;
   top: -100px;
   min-height: 650px;
+}
+
+@media (min-width: 768px){
+  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
+    width: 20%;
+  }
+}
+
+@media (max-width: 767px){
+  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
+    width: 100%;
+  }
 }
