@@ -369,6 +369,49 @@ h2.title {
   min-height: 650px;
 }
 
+.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-2.col-md-3.lateral-panel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-3.col-md-9.panel-content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.site-bienestar-laboral div#microsite_panel {
+    background-color: rgb(235,249,249);
+}
+
+.site-bienestar-laboral ul.nav.nav-tabs a {
+    background-color: rgb(242,110,1);
+    color: white;
+}
+
+.site-bienestar-laboral .tab-content {
+    background-color: white;
+}
+
+condensed-fix.css:14
+
+.site-bienestar-laboral .table-bordered {
+  border: none;
+}
+
+.site-bienestar-laboral .content table>thead>tr>th:first-child {
+  border-top-left-radius: 15px;
+  border: none;
+}
+
+.site-bienestar-laboral .content table>thead>tr>th:last-child {
+  border-top-right-radius: 15px;
+  border: none;
+}
+
+.site-bienestar-laboral .content .table-responsive tbody tr:hover * {
+    color: #000 !important;
+}
+
 @media (min-width: 768px){
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
     width: 20%;
@@ -386,28 +429,6 @@ h2.title {
 
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > a,
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a {
-    padding: 10px 5px !important;
+    padding: 10px 15px !important;
   }
 }
-.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-2.col-md-3.lateral-panel {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-3.col-md-9.panel-content {
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-div#microsite_panel {
-    background-color: rgb(235,249,249);
-}
-
-ul.nav.nav-tabs a {
-    background-color: rgb(242,110,1);
-    color: white;
-}
-.site-bienestar-laboral .tab-content {
-    background-color: white;
-}
-condensed-fix.css:14
