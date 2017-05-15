@@ -407,8 +407,8 @@ condensed-fix.css:14
 .site-bienestar-laboral .content .table-responsive tbody tr:hover * {
     color: #000 !important;
 }
-.site-bienestar-laboral .modal .modal-header .modal-content {
-    border-radius: 15px;
+.site-bienestar-laboral .modal .modal-content {
+    border-radius: 16px;
 }
 .site-bienestar-laboral .modal .modal-header {
     background: #01072b;
@@ -457,6 +457,9 @@ condensed-fix.css:14
 @media (min-width: 768px){
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
     width: 20%;
+  }
+  .site-bienestar-laboral .modal .modal-body {
+      background: #f65600 url('http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png') no-repeat 101% 1% / 50% auto !important;
   }
 }
 
