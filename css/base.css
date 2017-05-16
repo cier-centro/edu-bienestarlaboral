@@ -428,7 +428,7 @@ condensed-fix.css:14
 }
 inspector-stylesheet:1
 .panel-default>.panel-heading {
-    background-color: rgb(1,7,43);
+    background-color: rgb(1,7,43) !important;
 }
 .panel.panel-default {
     border-radius: 10px;
