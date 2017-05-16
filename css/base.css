@@ -425,6 +425,8 @@ condensed-fix.css:14
 /*accordion modifications*/
 .panel-default>.panel-heading > h4 {
     color: white;
+}
+.panel-default>.panel-heading {
     background-color: rgb(1,7,43) !important;
 }
 .panel.panel-default {
