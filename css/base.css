@@ -474,10 +474,17 @@ condensed-fix.css:14
 }
 .site-bienestar-laboral .modal .modal-footer .bienestar-laboral-logo {
     float: left;
+    background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-bienestarlaboral.png') no-repeat center/contain;
 }
 .site-bienestar-laboral .modal .modal-footer .new-country-logo,
 .site-bienestar-laboral .modal .modal-footer .mineducacion-logo {
     float: right;
+}
+.site-bienestar-laboral .modal .modal-footer .new-country-logo {
+    background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-nuevopais.png') no-repeat center/contain;
+}
+.site-bienestar-laboral .modal .modal-footer .mineducacion-logo {
+    background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png') no-repeat center/contain;
 }
 
 @media (min-width: 768px){
@@ -499,5 +506,8 @@ condensed-fix.css:14
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > a,
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a {
     padding: 10px 15px !important;
+  }
+  .site-bienestar-laboral .modal .modal-footer > * {
+      width: 33% !important;
   }
 }
