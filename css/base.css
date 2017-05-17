@@ -118,6 +118,86 @@ h2.title {
 .site-bienestar-laboral .btn-info:hover{
   background: #e6e6e6 !important;
 }
+.site-bienestar-laboral .main-lateral-panel .views-row {
+  display: flex;
+  align-items: center;
+  border: 2px solid #a0a0a0 !important;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row > * {
+  height: 100px;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title {
+  width: calc(100% - 70px);
+}
+.site-bienestar-laboral .main-lateral-panel .views-row .views-field-php {
+  width: 70px;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span,
+.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span a {
+  background: transparent;
+  color: #a0a0a0;
+  font-weight: 600;
+  padding: 20px 15px 20px 35px;
+  text-align: left;
+  font-size: 20px;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:first-child {
+  background: rgba(179,27,88,1);
+  background: -moz-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
+  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(179,27,88,1)), color-stop(20%, rgba(179,27,88,NaN)));
+  background: -webkit-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
+  background: -o-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
+  background: -ms-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
+  background: linear-gradient(to right, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b58', endColorstr='#b31b58', GradientType=1 );
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) {
+  background: rgba(156,195,77,1);
+  background: -moz-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
+  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(156,195,77,1)), color-stop(20%, rgba(156,195,77,NaN)));
+  background: -webkit-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
+  background: -o-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
+  background: -ms-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
+  background: linear-gradient(to right, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CC34D', endColorstr='#9CC34D', GradientType=1 );
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) {
+  background: rgba(102,167,221,1);
+  background: -moz-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
+  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(102,167,221,1)), color-stop(20%, rgba(102,167,221,NaN)));
+  background: -webkit-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
+  background: -o-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
+  background: -ms-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
+  background: linear-gradient(to right, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66A7DD', endColorstr='#66A7DD', GradientType=1 );
+}
+.site-bienestar-laboral .main-lateral-panel .views-field-php > span {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.site-bienestar-laboral .main-lateral-panel .views-field-php .button-icon {
+  display: block;
+  height: 80px;
+  background: url('http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png') no-repeat;
+  width: 100%;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-php .button-icon {
+  background-position: -2px 0px;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
+  background-position: -3px -90px;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
+  background-position: -4px -175px;
+}
 .site-bienestar-laboral .social-butons .btn-twitter span, .site-bienestar-laboral .social-butons .btn-facebook span, .site-bienestar-laboral .social-butons .btn-youtube span{
   display: none;
 }
