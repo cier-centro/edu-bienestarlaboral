@@ -524,7 +524,7 @@ condensed-fix.css:14
     text-decoration: none;
 }
 
-a[aria-expanded="true"] {
+.panel-default>.panel-heading > a[aria-expanded="true"] {
     background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
     background-position: 100% -110px !important;
 }
@@ -547,6 +547,16 @@ a[aria-expanded="true"] {
     margin-top: 0px;
 }
 /*-------*/
+
+.site-bienestar-laboral ul.nav.nav-tabs a[aria-expanded="true"] {
+    background-color: white;
+    color: black;
+}
+
+div .tab-pane.fade {
+    padding: 10px;
+}
+
 .site-bienestar-laboral .modal .modal-header .close {
     background: rgba(255, 255, 255, 0.8);
     height: 25px;
