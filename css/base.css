@@ -508,6 +508,9 @@ condensed-fix.css:14
 }
 .panel-default>.panel-heading {
     background-color: rgb(1,7,43) !important;
+    background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+    background-position: 100% -190px;
+    max-height: 50px;
 }
 .panel.panel-default {
     border-radius: 10px;
