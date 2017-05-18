@@ -138,15 +138,16 @@ h2.title {
 .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title a {
   width: 100%;
   height: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span a {
   background: transparent;
   color: #a0a0a0;
   font-weight: 600;
-  padding: 20px 15px 20px 35px;
+  padding: 0 15px 0 35px;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
 }
 .site-bienestar-laboral .main-lateral-panel .views-row:first-child {
   background: rgba(179,27,88,1);
@@ -178,10 +179,12 @@ h2.title {
   background: linear-gradient(to right, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66A7DD', endColorstr='#66A7DD', GradientType=1 );
 }
-.site-bienestar-laboral .main-lateral-panel .views-field-php > span {
+.site-bienestar-laboral .main-lateral-panel .views-field-php > span,
+.site-bienestar-laboral .main-lateral-panel .views-field-php > span > a {
   display: flex;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 .site-bienestar-laboral .main-lateral-panel .views-field-php .button-icon {
   display: block;
@@ -195,7 +198,7 @@ h2.title {
 .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
   background-position: -3px -90px;
 }
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-php .button-icon {
   background-position: -4px -175px;
 }
 .site-bienestar-laboral .social-butons .btn-twitter span, .site-bienestar-laboral .social-butons .btn-facebook span, .site-bienestar-laboral .social-butons .btn-youtube span{
@@ -579,6 +582,12 @@ condensed-fix.css:14
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+  .site-bienestar-laboral #banner .view .view-content {
+      margin-bottom: 0 !important;
+  }
+}
+
 @media (max-width: 767px){
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100%;
@@ -592,5 +601,11 @@ condensed-fix.css:14
   }
   .site-bienestar-laboral .modal .modal-footer > * {
       width: 33% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .site-bienestar-laboral #microsite_panel {
+    overflow: hidden;
   }
 }
