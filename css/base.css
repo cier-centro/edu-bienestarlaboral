@@ -515,6 +515,10 @@ condensed-fix.css:14
     margin: 0px !important;
 }
 
+.panel-default>.panel-heading{
+  padding: 0px !important;
+}
+
 .panel-default>.panel-heading > a {
     text-align: initial;
     text-decoration: none;
