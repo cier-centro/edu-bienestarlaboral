@@ -510,9 +510,16 @@ condensed-fix.css:14
 }
 
 /*accordion modifications*/
-.panel-default>.panel-heading > h4 {
+.panel-default>.panel-heading > a > h4 {
     color: white;
 }
+
+.panel-default>.panel-heading > a {
+    display: inline-block;
+    text-align: initial;
+    text-decoration: none;
+}
+
 .panel-default>.panel-heading {
     background-color: rgb(1,7,43) !important;
     background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
