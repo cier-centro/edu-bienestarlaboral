@@ -515,7 +515,6 @@ condensed-fix.css:14
 }
 
 .panel-default>.panel-heading > a {
-    display: inline-block;
     text-align: initial;
     text-decoration: none;
 }
