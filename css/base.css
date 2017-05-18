@@ -115,7 +115,8 @@ h2.title {
   font-weight: 600;
   border: 2px solid #5b5b5b;
 }
-.site-bienestar-laboral .btn-info:hover{
+.site-bienestar-laboral .btn-info:hover,
+.site-bienestar-laboral .main-lateral-panel .views-row:hover {
   background: #e6e6e6 !important;
 }
 .site-bienestar-laboral .main-lateral-panel .views-row {
@@ -129,7 +130,7 @@ h2.title {
   height: 100px;
 }
 .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title {
-  width: calc(100% - 70px);
+  width: calc(100% - 80px);
 }
 .site-bienestar-laboral .main-lateral-panel .views-row .views-field-php {
   width: 70px;
@@ -149,7 +150,10 @@ h2.title {
   text-align: left;
   font-size: 16px;
 }
-.site-bienestar-laboral .main-lateral-panel .views-row:first-child {
+.site-bienestar-laboral .main-lateral-panel .views-row:hover .views-field-title span a {
+  text-decoration: underline;
+}
+.site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-title {
   background: rgba(179,27,88,1);
   background: -moz-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
   background: -webkit-gradient(left top, right top, color-stop(20%, rgba(179,27,88,1)), color-stop(20%, rgba(179,27,88,NaN)));
@@ -159,7 +163,7 @@ h2.title {
   background: linear-gradient(to right, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b58', endColorstr='#b31b58', GradientType=1 );
 }
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) {
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-title {
   background: rgba(156,195,77,1);
   background: -moz-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
   background: -webkit-gradient(left top, right top, color-stop(20%, rgba(156,195,77,1)), color-stop(20%, rgba(156,195,77,NaN)));
@@ -169,7 +173,7 @@ h2.title {
   background: linear-gradient(to right, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CC34D', endColorstr='#9CC34D', GradientType=1 );
 }
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) {
+.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-title {
   background: rgba(102,167,221,1);
   background: -moz-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
   background: -webkit-gradient(left top, right top, color-stop(20%, rgba(102,167,221,1)), color-stop(20%, rgba(102,167,221,NaN)));
@@ -607,5 +611,8 @@ condensed-fix.css:14
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-bienestar-laboral #microsite_panel {
     overflow: hidden;
+  }
+  .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title {
+    width: calc(100% - 70px) !important;
   }
 }
