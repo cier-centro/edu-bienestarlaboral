@@ -191,14 +191,14 @@
   transition: all 0.2s ease;
 }
 /*******SLIDER******/
-#aliados-10-home-slider {
+.site-bienestar-laboral #bienestar_laboral_home_slider {
 		/*height: 320px;*/
 		overflow: hidden;
-		padding: 15px 15px;
-		margin-bottom: 15px;
+		/*padding: 15px 15px;
+		margin-bottom: 15px;*/
 }
 
- #aliados-10-home-slider .views-slideshow-controls-top {
+ .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-top {
 		position: absolute;
 	  top: 33%;
 		width: 97%;
@@ -206,42 +206,42 @@
 		padding: 0 3%;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider  #views_slideshow_cycle_main_edth_vista-panel_pane_4 {
+/*.site-bienestar-laboral #bienestar_laboral_home_slider  #views_slideshow_cycle_main_edth_vista-panel_pane_4 {
 		position: relative;
     top: -6vw;
-}
+}*/
 
-.site-bienestar-laboral #aliados-10-home-slider .views-slideshow-controls-text-pause {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-pause {
 		display: none;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_controls_text_next {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_controls_text_next {
 		float: right;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views-slideshow-controls-text-previous a {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-previous a {
 		color: transparent;
 		padding-bottom: 35px;
 		background: url("../img/previous_slide_icon.png") no-repeat center center / contain;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views-slideshow-controls-text-next a {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
 		background: url("../img/next_slide_icon.png") no-repeat center center / contain;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider #views_slideshow_cycle_teaser_section_edth_vista-panel_pane_4,
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide,
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide img {
+.site-bienestar-laboral #bienestar_laboral_home_slider #views_slideshow_cycle_teaser_section_edth_vista-panel_pane_4,
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide,
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide img {
 		width: 100% !important;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide > div {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div {
 		position: relative;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide > div .views-field-body {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body {
   position: absolute;
   top: 10%;
   width: 76%;
@@ -250,21 +250,21 @@
   padding: 15px;
   color: white;
 }
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide .views-field-body .field-content p{
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide .views-field-body .field-content p{
   color:#ffffff!important;
   background-color:rgba(255,255,255,0)!important;
 }
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide label {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide label {
 		color: #ffffff;
 		font-size: 36px;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views_slideshow_slide .field-content p {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide .field-content p {
 	  font-size: 13px;
     margin:0 25% 20px 0!important;
 }
 
-.site-bienestar-laboral #aliados-10-home-slider .views-more-link {
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-more-link {
   display: block;
   background: transparent;
   color: white;
