@@ -123,6 +123,13 @@ h2.title {
     color: #5b5b5b !important;
     border: 2px solid #5b5b5b !important;
 }
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .btn-info span {
+    height: 27px;
+    width: 27px;
+    margin-left: 15px;
+    float: right;
+    background: url('http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png') no-repeat -105px -25px;
+}
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body p {
   color:#ffffff!important;
 }
