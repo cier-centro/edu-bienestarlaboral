@@ -55,6 +55,19 @@ h2.title {
 .site-bienestar-laboral #bienestar_laboral_home_slider {
 	height: 100%;
 }
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-field-title {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-field-title h1 {
+  margin: 0;
+  padding: 0;
+}
+.site-bienestar-laboral #bienestar_laboral_home_slider .views-field-title h1 * {
+  color: white;
+  font-weight: 600;
+}
  .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-top {
   position: relative;
 	top: 165px;
@@ -65,9 +78,6 @@ h2.title {
 .site-bienestar-laboral #bienestar_laboral_home_slider  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
 	position: relative;
     top: -20px;
-}
-.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-pause {
-		display: none;
 }
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_controls_text_next {
 		float: right;
@@ -83,14 +93,32 @@ h2.title {
 		background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -90px -325px;
 }
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body {
-		position: absolute;
-		top: 330px;
-		width: 100%;
-		/*right: 12%;*/
-		background-color: rgba(5, 171, 153, 0.5);
-		padding: 15px 30px;
-    color:#ffffff;
-    min-height: 100px;
+    position: absolute;
+    top: 20%;
+    width: 40%;
+    left: 10%;
+    background-color: transparent;
+    padding: 30px 0 0;
+    color: #ffffff;
+}
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body h4 {
+    color: white;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-php {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+}
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .btn-info {
+    color: white;
+    border: 2px solid white;
+}
+.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .btn-info:hover {
+    color: #5b5b5b !important;
+    border: 2px solid #5b5b5b !important;
 }
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body p {
   color:#ffffff!important;

@@ -240,16 +240,6 @@
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div {
 		position: relative;
 }
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body {
-  position: absolute;
-  top: 10%;
-  width: 76%;
-  right: 12%;
-  background: transparent;
-  padding: 15px;
-  color: white;
-}
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide .views-field-body .field-content p{
   color:#ffffff!important;
   background-color:rgba(255,255,255,0)!important;
