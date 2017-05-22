@@ -68,12 +68,15 @@ h2.title {
   color: white;
   font-weight: 600;
 }
- .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-top {
+.site-bienestar-laboral #bienestar_laboral_home_slider .skin-default {
   position: relative;
-	top: 165px;
+}
+ .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-top {
+  position: absolute;
+  top: 43%;
 	width: 100%;
   z-index: 10;
-	padding: 0 0%;
+	padding: 0 15px;
 }
 .site-bienestar-laboral #bienestar_laboral_home_slider  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
 	position: relative;
@@ -647,6 +650,10 @@ div .tab-pane.fade {
 }
 
 @media (max-width: 767px){
+  .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-php,
+  .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body {
+    display: none;
+  }
   .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100%;
   }

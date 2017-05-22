@@ -192,25 +192,8 @@
 }
 /*******SLIDER******/
 .site-bienestar-laboral #bienestar_laboral_home_slider {
-		/*height: 320px;*/
 		overflow: hidden;
-		/*padding: 15px 15px;
-		margin-bottom: 15px;*/
 }
-
- .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-top {
-		position: absolute;
-	  top: 33%;
-		width: 97%;
-		z-index: 4;
-		padding: 0 3%;
-}
-
-/*.site-bienestar-laboral #bienestar_laboral_home_slider  #views_slideshow_cycle_main_edth_vista-panel_pane_4 {
-		position: relative;
-    top: -6vw;
-}*/
-
 .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-pause {
 		display: none;
 }
