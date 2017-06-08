@@ -687,3 +687,12 @@ div .tab-pane.fade {
     width: calc(100% - 70px) !important;
   }
 }
+
+.pane-content  .view-content .field-content ul{
+  padding-left: 40px !important;
+}
+
+.pane-content  .view-content .field-content li{
+  margin-top: 5px !important;
+  list-style: initial !important;
+}
