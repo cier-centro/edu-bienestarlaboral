@@ -77,7 +77,6 @@
     margin:0 60px 20px 60px!important;
 }
 .site-bienestar-laboral .content .aliados10-section-content ul li{
-    list-style: circle;
     text-indent: -10px !important;
     /*cambiar el valor a positivo según la necesidad*/
 }
@@ -96,11 +95,15 @@
 /***MENÚ***/
 /*cuando todos los hijos del menú son iguales*/
 .site-bienestar-laboral .main-menu > .pane-content > ul > li{
+  list-style: circle !important;
   display: inline-block;
   margin-right: -4px;
   box-sizing: border-box;
   height: 75px;
   background: #f78747 !important;
+}
+.site-bienestar-laboral .main-menu > .pane-content > ul{
+padding: 0 30px !important;
 }
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:first-child{width: 15%;}
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:nth-child(2){width: 16%;}
