@@ -696,3 +696,6 @@ div .tab-pane.fade {
   margin-top: 5px !important;
   list-style: initial !important;
 }
+.pane-content  .view-content .field-content img{
+  margin-top: 35px;
+}
