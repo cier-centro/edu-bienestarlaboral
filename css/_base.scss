@@ -9,52 +9,6 @@ h2.title {
     background-color: #01072b;
 }
 
-/*menu*/
-
-.site-bienestar-laboral #microsite_panel .pane-content > .menu {
-  background-color: #F26E01 !important;
-}
-
-.site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > a {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 17px 5px !important;
-  font-size: 15px !important;
-}
-
-.site-bienestar-laboral #microsite_panel .pane-content > .menu li.expanded > a:hover {
-    background-color: #f65600;
-}
-
-.site-bienestar-laboral .main-menu{
-  z-index: 10;
-  position: relative;
-  width: 700px;
-  margin: auto;
-  -webkit-box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
-  box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
-  -webkit-border-radius: 0 20px 0 0;
-  border-radius: 0 20px 0 0;
-  -webkit-transform: translate3d(0,0,0);
-  -moz-transform:translate3d(0,0,0);
-  -ms-transform:translate3d(0,0,0);
-  margin-bottom: 25px;
-}
-.site-bienestar-laboral .main-menu > .pane-content > ul > li:first-child a{
-  -webkit-border-radius: 20px 0 0 0;
-  border-radius: 20px 0 0 0;
-}
-.site-bienestar-laboral .main-menu > .pane-content > ul > li{
-  -webkit-border-radius: 20px 0 0 0;
-  border-radius: 20px 0 0 0;
-}
-.site-bienestar-laboral .main-menu > .pane-content > ul > li:last-child a{
-  -webkit-border-radius: 0 20px 0 0;
-  border-radius: 0 20px 0 0;
-}
-.site-bienestar-laboral .main-menu > .pane-content > ul > li:last-child{
-  -webkit-border-radius: 0 20px 0 0;
-  border-radius: 0 20px 0 0;
-}
 /*slider*/
 .site-bienestar-laboral #bienestar_laboral_home_slider {
 	height: 100%;
@@ -139,9 +93,6 @@ h2.title {
 }
 .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body p {
   color:#ffffff!important;
-}
-.site-bienestar-laboral #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
-	z-index:100;
 }
 /*social buttons*/
 .site-bienestar-laboral .social-butons{
@@ -647,9 +598,6 @@ div .tab-pane.fade {
 }
 
 @media (min-width: 768px){
-  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
-    width: 20%;
-  }
   .site-bienestar-laboral .modal .modal-body {
       background: #f65600 url('http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png') no-repeat 101% -1px / 50% auto !important;
   }
@@ -666,15 +614,8 @@ div .tab-pane.fade {
   .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .views-field-body {
     display: none;
   }
-  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu {
-    width: 100%;
-  }
   .site-bienestar-laboral .section_container.no_left_sidebar .section_content {
     width: 100% !important;
-  }
-  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > a,
-  .site-bienestar-laboral #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a {
-    padding: 10px 15px !important;
   }
   .site-bienestar-laboral .modal .modal-footer > * {
       width: 33% !important;
