@@ -1,3 +1,7 @@
+/**
+ * Base Styles
+ * --------------------------------------------------
+ */
 h2.title {
     display: none;
 }
@@ -189,10 +193,11 @@ h2.title {
 .site-bienestar-laboral .main-lateral-panel .views-row:hover .views-field-title span a {
   text-decoration: underline;
 }
+//Nan se cambió por cero en las tres clases siguientes
 .site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-title {
   background: rgba(179,27,88,1);
   background: -moz-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
-  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(179,27,88,1)), color-stop(20%, rgba(179,27,88,NaN)));
+  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(179,27,88,1)), color-stop(20%, rgba(179,27,88,0)));
   background: -webkit-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
   background: -o-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
   background: -ms-linear-gradient(left, rgba(179,27,88,1) 20px, rgba(179,27,88,0) 20px);
@@ -202,7 +207,7 @@ h2.title {
 .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-title {
   background: rgba(156,195,77,1);
   background: -moz-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
-  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(156,195,77,1)), color-stop(20%, rgba(156,195,77,NaN)));
+  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(156,195,77,1)), color-stop(20%, rgba(156,195,77,0)));
   background: -webkit-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
   background: -o-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
   background: -ms-linear-gradient(left, rgba(156,195,77,1) 20px, rgba(156,195,77,0) 20px);
@@ -212,7 +217,7 @@ h2.title {
 .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-title {
   background: rgba(102,167,221,1);
   background: -moz-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
-  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(102,167,221,1)), color-stop(20%, rgba(102,167,221,NaN)));
+  background: -webkit-gradient(left top, right top, color-stop(20%, rgba(102,167,221,1)), color-stop(20%, rgba(102,167,221,0)));
   background: -webkit-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
   background: -o-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
   background: -ms-linear-gradient(left, rgba(102,167,221,1) 20px, rgba(102,167,221,0) 20px);
@@ -513,9 +518,6 @@ h2.title {
 .site-bienestar-laboral .tab-content {
     background-color: white;
 }
-
-condensed-fix.css:14
-
 .site-bienestar-laboral .table-bordered {
   border: none;
 }

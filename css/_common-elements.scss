@@ -1,3 +1,7 @@
+/**
+ * Common Elements Styles
+ * --------------------------------------------------
+ */
 .content h1, .content h2, .content h3, .content h4{
     font-weight:normal;
     color:#1F2B49;
@@ -75,13 +79,13 @@
     line-height: 29px;
     color: #767679;
 }
-/*verificar que estos estilos siempre apunten al contenido para no modificar estilos del menú*/
+//verificar que estos estilos siempre apunten al contenido para no modificar estilos del menú
 .site-bienestar-laboral .content .aliados10-section-content ul{
     margin:0 60px 20px 60px!important;
 }
 .site-bienestar-laboral .content .aliados10-section-content ul li{
     text-indent: -10px !important;
-    /*cambiar el valor a positivo según la necesidad*/
+    //cambiar el valor a positivo según la necesidad
 }
 .site-bienestar-laboral .content .aliados10-section-content ul li:before {
     content: "• ";
@@ -95,8 +99,8 @@
 .site-bienestar-laboral .content p .amplification{
 
 }
-/***MENÚ***/
-/*cuando todos los hijos del menú son iguales*/
+//----MENÚ----/
+//cuando todos los hijos del menú son iguales
 .site-bienestar-laboral .main-menu > .pane-content > ul > li{
   list-style: circle !important;
   display: inline-block;
@@ -107,7 +111,7 @@
 }
 .site-bienestar-laboral .main-menu > .pane-content > ul{
 padding: 0 30px !important;
-
+}
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:first-child{width: 15%;}
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:nth-child(2){width: 16%;}
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:nth-child(3){width: 15%;}
@@ -117,7 +121,7 @@ padding: 0 30px !important;
 	border-right: none;
   width: 17%;
 }
-/*cuando el menú tiene difirentes tamaños para cada hijo o imágenes*/
+//cuando el menú tiene difirentes tamaños para cada hijo o imágenes
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:first-child a{
 	background:url(../img/inicio.png) #f78747 no-repeat center center!important;
 }
@@ -135,10 +139,10 @@ padding: 0 30px !important;
 }
 .site-bienestar-laboral .main-menu > .pane-content > ul > li:last-child a{
   background:url("../img/comunidades.png") #f78747 no-repeat center center!important;
-	/*width:16%;*/
+	//width:16%;
 }
 .site-bienestar-laboral #microsite_panel .main-menu, .site-bienestar-laboral #microsite_panel .main-menu > div .menu{
-	/*background-color: #a4579d !important;*/
+	//background-color: #a4579d !important;
 	border-bottom: none;
   padding: 0;
 }
@@ -151,7 +155,7 @@ padding: 0 30px !important;
   text-transform: uppercase;
   height: 75px;
 }
-/*.site-bienestar-laboral .main-menu .pane-content ul li a{background:#ffae55 !important;}*/
+//.site-bienestar-laboral .main-menu .pane-content ul li a{background:#ffae55 !important;}
 .site-bienestar-laboral .main-menu .pane-content ul li a:hover{
   text-decoration: none;
   color: #ffffff !important;
@@ -197,7 +201,7 @@ padding: 0 30px !important;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/*******SLIDER******/
+//----SLIDER----
 .site-bienestar-laboral #bienestar_laboral_home_slider {
 		overflow: hidden;
 }
@@ -253,7 +257,7 @@ padding: 0 30px !important;
   position: absolute;
   border: 1px solid #ffffff;
 }
-/****TABLAS****/
+//----TABLAS----
 .site-bienestar-laboral .content .table-responsive{
   margin-bottom: 15px;
 }
@@ -267,13 +271,13 @@ padding: 0 30px !important;
     -webkit-border-radius: 5px 5px 0px 0px;
 }
 .site-bienestar-laboral .content table>thead>tr>th{
-  /*background: rgba(163,194,89,1);
-  background: -moz-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,194,89,1)), color-stop(100%, rgba(141,181,48,1)));
-  background: -webkit-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
-  background: -o-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
-  background: -ms-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3c259', endColorstr='#8db530', GradientType=0 );*/
+  //background: rgba(163,194,89,1);
+  //background: -moz-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  //background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,194,89,1)), color-stop(100%, rgba(141,181,48,1)));
+  //background: -webkit-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  //background: -o-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  //background: -ms-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3c259', endColorstr='#8db530', GradientType=0 );
   background: #01072b;
   padding: 15px;
 }
@@ -286,9 +290,9 @@ padding: 0 30px !important;
     font-size: 15px;
     font-weight: 600;
 }
-/*para agregar bordes redondeados*/
-/*.site-bienestar-laboral .content table>thead>tr>th:first-child{border-radius: 10px 0px 0px 0px;-moz-border-radius: 10px 0px 0px 0px;-webkit-border-radius: 10px 0px 0px 0px;}*/
-/*.site-bienestar-laboral .content table>thead>tr>th:last-child{border-radius: 0px 10px 0px 0px;-moz-border-radius:  0px 10px 0px 0px;-webkit-border-radius:  0px 10px 0px 0px;}*/
+//para agregar bordes redondeados
+//.site-bienestar-laboral .content table>thead>tr>th:first-child{border-radius: 10px 0px 0px 0px;-moz-border-radius: 10px 0px 0px 0px;-webkit-border-radius: 10px 0px 0px 0px;}
+//.site-bienestar-laboral .content table>thead>tr>th:last-child{border-radius: 0px 10px 0px 0px;-moz-border-radius:  0px 10px 0px 0px;-webkit-border-radius:  0px 10px 0px 0px;}
 .site-bienestar-laboral .content .table-responsive{border: 0px solid rgba(110,114,118,1);}
 .site-bienestar-laboral .content .table-responsive > thead > tr > th{text-align: center;}
 .site-bienestar-laboral .content .table-responsive > thead > tr > th,.site-bienestar-laboral .content .table-responsive > thead > tr > td{border-right: 1px solid rgba(110,114,118,0.2);color: #ffffff;}
@@ -498,8 +502,8 @@ padding: 0 30px !important;
     }
 }
 @media (min-width: 1100px){
-  /*Es importante definir el content inicialmente*/
+  //Es importante definir el content inicialmente
   .site-bienestar-laboral .main_container .section_content {
-    width: 1024px!important;
+    width: 1024px !important;
   }
 }
