@@ -559,12 +559,12 @@ h1.logo {
 .site-bienestar-laboral .section_content p {
   margin-top: 10px !important;
   color: #666666 !important; }
-.site-bienestar-laboral .pane-content .view-content ul {
+.site-bienestar-laboral .home-content .view-content ul {
   padding-left: 40px !important; }
-.site-bienestar-laboral .pane-content .view-content li {
+.site-bienestar-laboral .home-content .view-content li {
   margin-top: 5px !important;
   list-style: initial !important; }
-.site-bienestar-laboral .pane-content .view-content img {
+.site-bienestar-laboral .home-content .view-content img {
   margin-top: 35px; }
 @media (min-width: 1100px) {
   .site-bienestar-laboral .main_container .section_content {
