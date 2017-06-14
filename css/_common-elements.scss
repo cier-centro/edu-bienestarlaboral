@@ -15,62 +15,6 @@
          }
      }
  }
-//----SLIDER----
-.site-bienestar-laboral #bienestar_laboral_home_slider {
-		overflow: hidden;
-}
-.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-pause {
-		display: none;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_controls_text_next {
-		float: right;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-previous a {
-		color: transparent;
-		padding-bottom: 35px;
-		background: url("../img/previous_slide_icon.png") no-repeat center center / contain;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-next a {
-		color: transparent;
-		padding-bottom: 35px;
-		background: url("../img/next_slide_icon.png") no-repeat center center / contain;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider #views_slideshow_cycle_teaser_section_edth_vista-panel_pane_4,
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide,
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide img {
-		width: 100% !important;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div {
-		position: relative;
-}
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide .views-field-body .field-content p{
-  color:#ffffff!important;
-  background-color:rgba(255,255,255,0)!important;
-}
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide label {
-		color: #ffffff;
-		font-size: 36px;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide .field-content p {
-	  font-size: 13px;
-    margin:0 25% 20px 0!important;
-}
-
-.site-bienestar-laboral #bienestar_laboral_home_slider .views-more-link {
-  display: block;
-  background: transparent;
-  color: white;
-  margin: 15px 0px 0px;
-  padding: 4px 20px;
-  position: absolute;
-  border: 1px solid #ffffff;
-}
 //----TABLAS----
 .site-bienestar-laboral .content .table-responsive{
   margin-bottom: 15px;
