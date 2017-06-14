@@ -3,7 +3,7 @@
  * --------------------------------------------------
  */
 
-.#{$site-name} {
+//.#{$site-name} {
 
   .panel{
     .panel-default{
@@ -38,7 +38,7 @@
   .panel-group .panel+.panel {
     margin-top: 0px;
   }
-
+//}
 
   /*
   .panel-default>.panel-heading > a > h4 {
@@ -74,5 +74,3 @@ border-radius: 8px 8px 5px 5px;
 .panel.panel-default {
 border-radius: 10px;
 }*/
-
-}

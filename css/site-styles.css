@@ -1021,7 +1021,31 @@ div .tab-pane.fade {
  * Accordion Styles
  * --------------------------------------------------
  */
-.site-bienestar-laboral {
+.panel .panel-default {
+  border-radius: 10px; }
+  .panel .panel-default .panel-heading {
+    padding: 0px !important; }
+    .panel .panel-default .panel-heading > a {
+      text-align: initial;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+      text-align: initial;
+      text-decoration: none;
+      background-color: #01072b !important;
+      background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+      background-position: 100% -195px;
+      border-radius: 8px 8px 5px 5px; }
+      .panel .panel-default .panel-heading > a[aria-expanded="true"] {
+        background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+        background-position: 100% -110px !important; }
+      .panel .panel-default .panel-heading > a > h4 {
+        color: white;
+        margin: 0px !important; }
+
+.panel-group .panel + .panel {
+  margin-top: 0px; }
+
   /*
   .panel-default>.panel-heading > a > h4 {
   color: white;
@@ -1055,29 +1079,6 @@ border-radius: 8px 8px 5px 5px;
 
 .panel.panel-default {
 border-radius: 10px;
-}*/ }
-  .site-bienestar-laboral .panel .panel-default {
-    border-radius: 10px; }
-    .site-bienestar-laboral .panel .panel-default .panel-heading {
-      padding: 0px !important; }
-      .site-bienestar-laboral .panel .panel-default .panel-heading > a {
-        text-align: initial;
-        text-decoration: none;
-        padding: 10px 15px;
-        display: block;
-        text-align: initial;
-        text-decoration: none;
-        background-color: #01072b !important;
-        background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
-        background-position: 100% -195px;
-        border-radius: 8px 8px 5px 5px; }
-        .site-bienestar-laboral .panel .panel-default .panel-heading > a[aria-expanded="true"] {
-          background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
-          background-position: 100% -110px !important; }
-        .site-bienestar-laboral .panel .panel-default .panel-heading > a > h4 {
-          color: white;
-          margin: 0px !important; }
-  .site-bienestar-laboral .panel-group .panel + .panel {
-    margin-top: 0px; }
+}*/
 
 /*# sourceMappingURL=site-styles.css.map */
