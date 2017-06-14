@@ -104,5 +104,11 @@
                 }
             }
         }
-     }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+            .views-row .views-field-title {
+               width: calc(100% - 70px) !important;
+            }
+        }
+    }
 }
