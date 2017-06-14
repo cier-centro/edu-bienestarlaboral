@@ -9,12 +9,6 @@ h2.title {
     background-color: #01072b;
 }
 
-/*social buttons*/
-.site-bienestar-laboral .social-butons{
-  height: 100px;
-  background: url("../img/bg-social.png") no-repeat left center #5bd6c1;
-  display: block;
-}
 .site-bienestar-laboral .btn-info{
   background: transparent;
   color: #5b5b5b;
@@ -328,20 +322,6 @@ h2.title {
 }
 .site-bienestar-laboral .tab-content {
     background-color: white;
-}
-.site-bienestar-laboral .table-bordered {
-  border: none;
-}
-.site-bienestar-laboral .content table>thead>tr>th:first-child {
-  border-top-left-radius: 15px;
-  border: none;
-}
-.site-bienestar-laboral .content table>thead>tr>th:last-child {
-  border-top-right-radius: 15px;
-  border: none;
-}
-.site-bienestar-laboral .content .table-responsive tbody tr:hover * {
-    color: #000 !important;
 }
 .site-bienestar-laboral .modal .modal-content {
     border-radius: 16px;

@@ -9,3 +9,10 @@
     -o-transition: $values;
     transition: $values;
 }
+
+@mixin border-radius-properties($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    -ms-border-radius: $value;
+    border-radius: $value;
+}

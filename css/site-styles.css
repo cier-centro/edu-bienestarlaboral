@@ -727,36 +727,10 @@ h1.logo {
       display: none; } }
 
 /**
- * Common Elements Styles
+ * Tables Styles
  * --------------------------------------------------
  */
-.site-bienestar-laboral .content p a {
-  text-decoration: underline; }
-.site-bienestar-laboral .content .table-responsive {
-  width: 90%;
-  margin: auto; }
-
-.site-bienestar-laboral .content .table-responsive {
-  margin-bottom: 15px; }
-
-.site-bienestar-laboral .content .table-responsive > thead > tr > th, .site-bienestar-laboral .content .table-responsive > tbody > tr > th, .site-bienestar-laboral .content .table-responsive > tfoot > tr > th, .site-bienestar-laboral .content .table-responsive > thead > tr > td, .site-bienestar-laboral .content .table-responsive > tbody > tr > td, .site-bienestar-laboral .content .table-responsive > tfoot > tr > td {
-  border: none; }
-
-.site-bienestar-laboral .content table > thead {
-  background: #8db530;
-  border-radius: 5px 5px 0px 0px;
-  -moz-border-radius: 5px 5px 0px 0px;
-  -webkit-border-radius: 5px 5px 0px 0px; }
-
-.site-bienestar-laboral .content table > thead > tr > th {
-  background: #01072b;
-  padding: 15px; }
-
-.site-bienestar-laboral .content table > thead > tr > th:first-child {
-  color: rgba(255, 255, 255, 0); }
-
-.site-bienestar-laboral .content table thead th a, table thead th a:hover,
-.site-bienestar-laboral .content table thead th, .site-bienestar-laboral .content table thead th:hover {
+.th-text-styles, .site-bienestar-laboral .content table thead th, .site-bienestar-laboral .content table thead th a, .site-bienestar-laboral .content table thead th a:hover, .site-bienestar-laboral .content table thead th:hover {
   text-decoration: none;
   color: white;
   text-shadow: none;
@@ -764,87 +738,74 @@ h1.logo {
   font-weight: 600; }
 
 .site-bienestar-laboral .content .table-responsive {
-  border: 0px solid #6e7276; }
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  border: none; }
+  .site-bienestar-laboral .content .table-responsive tbody tr {
+    border-bottom: none; }
+    .site-bienestar-laboral .content .table-responsive tbody tr:nth-child(odd) {
+      background: #e6e6e6; }
+    .site-bienestar-laboral .content .table-responsive tbody tr:nth-child(even) {
+      background: white; }
+    .site-bienestar-laboral .content .table-responsive tbody tr:hover {
+      background: #ffab00;
+      -webkit-transition: all 150ms ease-out;
+      -moz-transition: all 150ms ease-out;
+      -ms-transition: all 150ms ease-out;
+      -o-transition: all 150ms ease-out;
+      transition: all 150ms ease-out; }
+      .site-bienestar-laboral .content .table-responsive tbody tr:hover * {
+        color: black !important; }
+      .site-bienestar-laboral .content .table-responsive tbody tr:hover th, .site-bienestar-laboral .content .table-responsive tbody tr:hover td {
+        color: white;
+        -webkit-transition: all 150ms ease-out;
+        -moz-transition: all 150ms ease-out;
+        -ms-transition: all 150ms ease-out;
+        -o-transition: all 150ms ease-out;
+        transition: all 150ms ease-out; }
+    .site-bienestar-laboral .content .table-responsive tbody tr td:last-child {
+      min-width: 100px; }
+  .site-bienestar-laboral .content .table-responsive tbody td {
+    padding: 2px 3px 2px 3px; }
+  .site-bienestar-laboral .content .table-responsive thead th, .site-bienestar-laboral .content .table-responsive thead td {
+    padding: 4px 3px 4px 3px; }
+  .site-bienestar-laboral .content .table-responsive td > a {
+    color: #243268;
+    display: inline-block; }
+  .site-bienestar-laboral .content .table-responsive table tr th {
+    text-shadow: none; }
+  .site-bienestar-laboral .content .table-responsive tr, .site-bienestar-laboral .content .table-responsive tr.even {
+    border-bottom: 0px;
+    border-top: 0px; }
+  .site-bienestar-laboral .content .table-responsive tfoot tr td:last-child {
+    border-right: none; }
+  .site-bienestar-laboral .content .table-responsive tfoot td {
+    padding: 3px 3px 3px 3px; }
+.site-bienestar-laboral .content table > thead {
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -ms-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px; }
+  .site-bienestar-laboral .content table > thead > tr > th {
+    background: #01072b;
+    padding: 15px; }
+    .site-bienestar-laboral .content table > thead > tr > th:first-child {
+      color: rgba(255, 255, 255, 0);
+      border-top-left-radius: 15px;
+      border: none; }
+    .site-bienestar-laboral .content table > thead > tr > th:last-child {
+      border-top-right-radius: 15px;
+      border: none; }
+.site-bienestar-laboral .content .table-bordered {
+  border: none; }
 
-.site-bienestar-laboral .content .table-responsive > thead > tr > th {
-  text-align: center; }
-
-.site-bienestar-laboral .content .table-responsive > thead > tr > th, .site-bienestar-laboral .content .table-responsive > thead > tr > td {
-  border-right: 1px solid rgba(110, 114, 118, 0.2);
-  color: #ffffff; }
-
-.site-bienestar-laboral .content .table-responsive > tbody > tr > th, .site-bienestar-laboral .content .table-responsive > tfoot > tr > th, .site-bienestar-laboral .content .table-responsive > tbody > tr > td, .site-bienestar-laboral .content .table-responsive > tfoot > tr > td {
-  border-right: 1px solid rgba(110, 114, 118, 0.2); }
-
-.site-bienestar-laboral .content .table-responsive > thead > tr > th:first-child, .site-bienestar-laboral .content .table-responsive > thead > tr > td:first-child {
-  color: #ffffff; }
-
-.site-bienestar-laboral .content .table-responsive > tbody > tr > th:first-child, .site-bienestar-laboral .content .table-responsive > tfoot > tr > th:first-child, .content .table-responsive > tbody > tr > td:first-child, .content .table-responsive > tfoot > tr > td:first-child {
-  border-left: none;
-  text-align: left; }
-
-.site-bienestar-laboral .content .table-responsive > tbody > tr > th:last-child, .site-bienestar-laboral .content .table-responsive > tfoot > tr > th:last-child, .site-bienestar-laboral .content .table-responsive > tbody > tr > td:last-child, .site-bienestar-laboral .content .table-responsive > tfoot > tr > td:last-child, .site-bienestar-laboral .content .table-responsive > thead > tr > th:last-child, .table-responsive > thead > tr > td:last-child {
-  border-right: none; }
-
-.site-bienestar-laboral .content .table-responsive tbody tr:nth-child(odd) {
-  background: #e6e6e6; }
-
-.site-bienestar-laboral .content .table-responsive tbody tr:nth-child(even) {
-  background: #fff; }
-
-.site-bienestar-laboral .content .table-responsive tbody tr:hover {
-  background: #ffab00;
-  -webkit-transition: all 150ms ease-out;
-  -moz-transition: all 150ms ease-out;
-  -ms-transition: all 150ms ease-out;
-  -o-transition: all 150ms ease-out;
-  transition: all 150ms ease-out; }
-
-.site-bienestar-laboral .content .table-responsive tbody tr:hover th, .table-responsive tbody tr:hover td {
-  color: #ffffff;
-  -webkit-transition: all 150ms ease-out;
-  -moz-transition: all 150ms ease-out;
-  -ms-transition: all 150ms ease-out;
-  -o-transition: all 150ms ease-out;
-  transition: all 150ms ease-out; }
-
-.site-bienestar-laboral .content .table-responsive tbody tr {
-  border-bottom: none; }
-
-.site-bienestar-laboral .content .table-responsive thead tr:last-child {
-  background: #A2C259;
-  border-bottom: solid 1px rgba(110, 114, 118, 0.5); }
-
-.site-bienestar-laboral .content .table-responsive tbody tr td:last-child {
-  min-width: 100px; }
-
-.site-bienestar-laboral .content .table-responsive td > input {
-  background: #535d87;
-  border: 1px solid #04143b; }
-
-.site-bienestar-laboral .content .table-responsive td > a {
-  color: #243268;
-  display: inline-block; }
-
-.site-bienestar-laboral .content .table-responsive table tr th {
-  text-shadow: none; }
-
-.site-bienestar-laboral .content .table-responsive tr, .site-bienestar-laboral .content .table-responsive tr.even {
-  background-color: #F9F9F9;
-  border-bottom: 0px;
-  border-top: 0px; }
-
-.site-bienestar-laboral .content tfoot tr td:last-child {
-  border-right: none; }
-
-.site-bienestar-laboral .content thead th, .site-bienestar-laboral .content thead td {
-  padding: 4px 3px 4px 3px; }
-
-.site-bienestar-laboral .content tbody td {
-  padding: 2px 3px 2px 3px; }
-
-.site-bienestar-laboral .content tfoot td {
-  padding: 3px 3px 3px 3px; }
+/**
+ * Common Elements Styles
+ * --------------------------------------------------
+ */
+.site-bienestar-laboral .content p a {
+  text-decoration: underline; }
 
 .site-bienestar-laboral .content .faq-accordion .views-row > div {
   border: 1px solid #909090;
@@ -973,12 +934,6 @@ h2.title {
 
 .site-bienestar-laboral .main_container {
   background-color: #01072b; }
-
-/*social buttons*/
-.site-bienestar-laboral .social-butons {
-  height: 100px;
-  background: url("../img/bg-social.png") no-repeat left center #5bd6c1;
-  display: block; }
 
 .site-bienestar-laboral .btn-info {
   background: transparent;
@@ -1291,20 +1246,6 @@ h2.title {
 
 .site-bienestar-laboral .tab-content {
   background-color: white; }
-
-.site-bienestar-laboral .table-bordered {
-  border: none; }
-
-.site-bienestar-laboral .content table > thead > tr > th:first-child {
-  border-top-left-radius: 15px;
-  border: none; }
-
-.site-bienestar-laboral .content table > thead > tr > th:last-child {
-  border-top-right-radius: 15px;
-  border: none; }
-
-.site-bienestar-laboral .content .table-responsive tbody tr:hover * {
-  color: #000 !important; }
 
 .site-bienestar-laboral .modal .modal-content {
   border-radius: 16px; }
