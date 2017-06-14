@@ -1,5 +1,5 @@
 /**
- * Headers Styles
+ * Headings Styles
  * --------------------------------------------------
  */
 .content-header-styles {
@@ -39,5 +39,8 @@
             margin-top: 15px;
             @extend .content-header-styles;
         }
+    }
+    h2.title {
+        display: none;
     }
 }

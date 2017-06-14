@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
  * Condensed Fix Styles
  * --------------------------------------------------
@@ -545,7 +544,29 @@ h1.logo {
  * --------------------------------------------------
  */
 /**
- * Headers Styles
+ * Common Elements Styles
+ * --------------------------------------------------
+ */
+.site-bienestar-laboral .main_container {
+  background-color: #01072b; }
+.site-bienestar-laboral .content p a {
+  text-decoration: underline; }
+.site-bienestar-laboral .section_content .breadcrumb {
+  margin-bottom: 0px;
+  height: 40px; }
+.site-bienestar-laboral .section_content p {
+  margin-top: 10px !important;
+  color: #666666 !important; }
+@media (min-width: 1100px) {
+  .site-bienestar-laboral .main_container .section_content {
+    width: 1024px !important; } }
+@media (min-width: 768px) {
+  .site-bienestar-laboral .content .modal-dialog {
+    width: 600px;
+    margin: 15% auto; } }
+
+/**
+ * Headings Styles
  * --------------------------------------------------
  */
 .content-header-styles, .site-bienestar-laboral .content h1, .site-bienestar-laboral .content h2, .site-bienestar-laboral .content h3, .site-bienestar-laboral .content h4 {
@@ -575,6 +596,8 @@ h1.logo {
   font-size: 16px;
   font-weight: bold;
   margin-top: 15px; }
+.site-bienestar-laboral h2.title {
+  display: none; }
 
 /**
  * Main Menu Styles
@@ -799,442 +822,92 @@ h1.logo {
   border: none; }
 
 /**
- * Common Elements Styles
+ * Buttons Styles
  * --------------------------------------------------
  */
-.site-bienestar-laboral .content p a {
-  text-decoration: underline; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row > div {
-  border: 1px solid #909090;
-  border-radius: 0; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row > div:first-child {
-  background: #eff1f5; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row .ui-accordion-header {
-  margin-top: 0; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row > div:first-child a {
-  text-align: left; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row .ui-state-active {
-  font-weight: 700; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row .ui-state-default {
-  font-weight: 500; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row > div:first-child span {
-  color: #122747; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row .ui-accordion-content-active {
-  padding: 20px 20px 0 !important; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row {
-  margin-bottom: -2px; }
-
-.site-bienestar-laboral .content .faq-accordion .views-row-last {
-  margin-bottom: 0; }
-
-.site-bienestar-laboral .content .pager li > a {
-  padding: 0;
-  border-radius: 0;
-  border: none;
-  background-color: white;
-  font-weight: bold;
-  color: black; }
-
-.site-bienestar-laboral .content .pager .pager-current {
-  background-color: white;
-  color: #A4579D;
-  width: 40px; }
-
-.site-bienestar-laboral .content .pager .pager-first a,
-.site-bienestar-laboral .content .pager .pager-previous a,
-.site-bienestar-laboral .content .pager .pager-next a,
-.site-bienestar-laboral .content .pager .pager-last a {
-  background: url(../img/pager-spritesheet.png); }
-
-.site-bienestar-laboral .content .pager .pager-first a {
-  background-position: 3px -20px; }
-
-.site-bienestar-laboral .content .pager .pager-previous a {
-  background-position: 3px 3px; }
-
-.site-bienestar-laboral .content .pager .pager-next a {
-  background-position: -20px 3px; }
-
-.site-bienestar-laboral .content .pager .pager-last a {
-  background-position: -21px -20px; }
-
-.pager-previous + .pager-item:before, .pager-item + .pager-current:before,
-.pager-current + .pager-item:before, .pager-item + .pager-item:before,
-.pager-item + .pager-next:before {
-  content: " | ";
-  color: black;
-  font-weight: bold; }
-
-.pager-item + .pager-current:before {
-  padding-right: 7px; }
-
-.site-bienestar-laboral .content .btn-pdf-file {
-  background: #ededed;
-  border: 1px solid #818181; }
-
-.site-bienestar-laboral .content .btn-pdf-file:hover {
-  background: #cdced0; }
-
-.site-bienestar-laboral .content .btn-page-link label,
-.site-bienestar-laboral .content .btn-pdf-file label {
-  font-size: 20px;
-  font-weight: 500; }
-
-.site-bienestar-laboral .content .btn-pdf-file label {
-  color: #818181;
-  padding-top: 3px; }
-
-.site-bienestar-laboral .content .pdf-file-icon {
-  background: url(../images/pdf-icons.png);
-  height: 36px;
-  width: 28px;
-  display: block;
-  float: right; }
-
-.site-bienestar-laboral .content .btn-page-link {
-  background: #ee0029;
-  border: 1px solid #c00025;
-  white-space: pre-line; }
-
-.site-bienestar-laboral .content .btn-page-link:hover {
-  background: #122747; }
-
-.site-bienestar-laboral .content .btn-page-link label {
-  white-space: pre-line;
-  color: white; }
-
-.site-bienestar-laboral .section_content .breadcrumb {
-  margin-bottom: 0px;
-  height: 40px; }
-
-@media (min-width: 768px) {
-  .site-bienestar-laboral .content .modal-dialog {
-    width: 600px;
-    margin: 15% auto; } }
-@media (min-width: 1100px) {
-  .site-bienestar-laboral .main_container .section_content {
-    width: 1024px !important; } }
-/**
- * Base Styles
- * --------------------------------------------------
- */
-h2.title {
-  display: none; }
-
-.site-bienestar-laboral .main_container {
-  background-color: #01072b; }
-
 .site-bienestar-laboral .btn-info {
   background: transparent;
   color: #5b5b5b;
   font-weight: 600;
   border: 2px solid #5b5b5b; }
-
-.site-bienestar-laboral .btn-info:hover,
-.site-bienestar-laboral .main-lateral-panel .views-row:hover {
-  background: #e6e6e6 !important; }
-
+  .site-bienestar-laboral .btn-info:hover {
+    background: #e6e6e6 !important; }
 .site-bienestar-laboral .main-lateral-panel .views-row {
   display: flex;
   align-items: center;
   border: 2px solid #a0a0a0 !important;
   border-radius: 10px;
   margin-top: 25px; }
+  .site-bienestar-laboral .main-lateral-panel .views-row:hover {
+    background: #e6e6e6 !important; }
+    .site-bienestar-laboral .main-lateral-panel .views-row:hover .views-field-title span a {
+      text-decoration: underline; }
+  .site-bienestar-laboral .main-lateral-panel .views-row > * {
+    height: 100px; }
+  .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title {
+    width: calc(100% - 80px); }
+    .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span a {
+      background: transparent;
+      color: #a0a0a0;
+      font-weight: 600;
+      padding: 0 15px 0 35px;
+      text-align: left;
+      font-size: 16px; }
+    .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span, .site-bienestar-laboral .main-lateral-panel .views-row .views-field-title a {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+  .site-bienestar-laboral .main-lateral-panel .views-row .views-field-php {
+    width: 70px; }
+    .site-bienestar-laboral .main-lateral-panel .views-row .views-field-php > span, .site-bienestar-laboral .main-lateral-panel .views-row .views-field-php > span > a {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%; }
+    .site-bienestar-laboral .main-lateral-panel .views-row .views-field-php .button-icon {
+      display: block;
+      height: 80px;
+      background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat;
+      width: 100%; }
+  .site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-title {
+    background: #b31b58;
+    background: -moz-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
+    background: -webkit-gradient(left top, right top, color-stop(20%, #b31b58), color-stop(20%, rgba(179, 27, 88, 0)));
+    background: -webkit-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
+    background: -o-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
+    background: -ms-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
+    background: linear-gradient(to right, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b58', endColorstr='#b31b58', GradientType=1 ); }
+  .site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-php .button-icon {
+    background-position: -2px 0px; }
+  .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-title {
+    background: #9cc34d;
+    background: -moz-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
+    background: -webkit-gradient(left top, right top, color-stop(20%, #9cc34d), color-stop(20%, rgba(156, 195, 77, 0)));
+    background: -webkit-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
+    background: -o-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
+    background: -ms-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
+    background: linear-gradient(to right, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CC34D', endColorstr='#9CC34D', GradientType=1 ); }
+  .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
+    background-position: -3px -90px; }
+  .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-title {
+    background: #66a7dd;
+    background: -moz-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
+    background: -webkit-gradient(left top, right top, color-stop(20%, #66a7dd), color-stop(20%, rgba(102, 167, 221, 0)));
+    background: -webkit-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
+    background: -o-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
+    background: -ms-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
+    background: linear-gradient(to right, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66A7DD', endColorstr='#66A7DD', GradientType=1 ); }
+  .site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-php .button-icon {
+    background-position: -4px -175px; }
 
-.site-bienestar-laboral .main-lateral-panel .views-row > * {
-  height: 100px; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title {
-  width: calc(100% - 80px); }
-
-.site-bienestar-laboral .main-lateral-panel .views-row .views-field-php {
-  width: 70px; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span,
-.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title a {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row .views-field-title span a {
-  background: transparent;
-  color: #a0a0a0;
-  font-weight: 600;
-  padding: 0 15px 0 35px;
-  text-align: left;
-  font-size: 16px; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:hover .views-field-title span a {
-  text-decoration: underline; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-title {
-  background: #b31b58;
-  background: -moz-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-  background: -webkit-gradient(left top, right top, color-stop(20%, #b31b58), color-stop(20%, rgba(179, 27, 88, 0)));
-  background: -webkit-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-  background: -o-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-  background: -ms-linear-gradient(left, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-  background: linear-gradient(to right, #b31b58 20px, rgba(179, 27, 88, 0) 20px);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b58', endColorstr='#b31b58', GradientType=1 ); }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-title {
-  background: #9cc34d;
-  background: -moz-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-  background: -webkit-gradient(left top, right top, color-stop(20%, #9cc34d), color-stop(20%, rgba(156, 195, 77, 0)));
-  background: -webkit-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-  background: -o-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-  background: -ms-linear-gradient(left, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-  background: linear-gradient(to right, #9cc34d 20px, rgba(156, 195, 77, 0) 20px);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CC34D', endColorstr='#9CC34D', GradientType=1 ); }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-title {
-  background: #66a7dd;
-  background: -moz-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-  background: -webkit-gradient(left top, right top, color-stop(20%, #66a7dd), color-stop(20%, rgba(102, 167, 221, 0)));
-  background: -webkit-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-  background: -o-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-  background: -ms-linear-gradient(left, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-  background: linear-gradient(to right, #66a7dd 20px, rgba(102, 167, 221, 0) 20px);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66A7DD', endColorstr='#66A7DD', GradientType=1 ); }
-
-.site-bienestar-laboral .main-lateral-panel .views-field-php > span,
-.site-bienestar-laboral .main-lateral-panel .views-field-php > span > a {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%; }
-
-.site-bienestar-laboral .main-lateral-panel .views-field-php .button-icon {
-  display: block;
-  height: 80px;
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat;
-  width: 100%; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-php .button-icon {
-  background-position: -2px 0px; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(2) .views-field-php .button-icon {
-  background-position: -3px -90px; }
-
-.site-bienestar-laboral .main-lateral-panel .views-row:nth-child(3) .views-field-php .button-icon {
-  background-position: -4px -175px; }
-
-.site-bienestar-laboral .social-butons .btn-twitter span, .site-bienestar-laboral .social-butons .btn-facebook span, .site-bienestar-laboral .social-butons .btn-youtube span {
-  display: none; }
-
-.site-bienestar-laboral .social-butons .btn-twitter, .site-bienestar-laboral .social-butons .btn-facebook, .site-bienestar-laboral .social-butons .btn-youtube {
-  height: 50px;
-  width: 50px;
-  float: right;
-  display: block;
-  margin: 20px 5px; }
-
-.site-bienestar-laboral .social-butons .btn-twitter {
-  background: url("../img/ico-twitter.png") no-repeat center center/contain; }
-
-.site-bienestar-laboral .social-butons .btn-facebook {
-  background: url("../img/ico-face.png") no-repeat center center/contain; }
-
-.site-bienestar-laboral .social-butons .btn-youtube {
-  background: url("../img/ico-youtube.png") no-repeat center center/contain; }
-
-/* tip pedagogico, preescolar es una nota y documentos de referencia*/
-.site-bienestar-laboral .pedagogical-tip, .site-bienestar-laboral .pedagogical-tip {
-  background: url("../img/img-tip-teacher.png") no-repeat;
-  background-color: #f9ede5;
-  background-position: 90% 0px; }
-
-.site-bienestar-laboral .preschool-home-content {
-  background: #f9ede5;
-  padding: 10px 25px; }
-
-.site-bienestar-laboral .preschool-home-content h2 {
-  background: #f78747;
-  text-transform: uppercase;
-  color: #ffffff;
-  display: block;
-  -webkit-border-radius: 3px 3px 0 0;
-  border-radius: 3px 3px 0 0;
-  margin: 0px;
-  padding: 5px 20px;
-  font-weight: bold;
-  margin: 0px -15px 0 0; }
-
-.site-bienestar-laboral .preschool-home-content h3 {
-  margin: 15px 0px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: bold; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white {
-  background-color: white; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white p, .site-bienestar-laboral .preschool-home-content .bg-white h3 {
-  margin: 15px !important; }
-
-.site-bienestar-laboral .preschool-home-content .tecnical-documents h3 {
-  background: #ff6e5f;
-  text-transform: uppercase;
-  color: #ffffff;
-  display: block;
-  padding: 5px 20px;
-  font-weight: bold;
-  margin: 0px -15px !important; }
-
-.site-bienestar-laboral .events-content {
-  margin: 15px 0; }
-
-.site-bienestar-laboral .events-content .pane-content {
-  height: 335px;
-  overflow-y: scroll; }
-
-.site-bienestar-laboral .events-content h2 {
-  display: block;
-  background: #05ab99 url("../img/ico-eventos.png") no-repeat;
-  background-position: 100px -5px;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin: 0px 0 0 -15px;
-  padding: 5px 15px; }
-
-.site-bienestar-laboral .events-content .views-row {
-  margin: 10px 0px;
-  max-height: 145px;
-  overflow: hidden; }
-
-.site-bienestar-laboral .events-content .views-row img, .site-bienestar-laboral .events-content .views-row a, .site-bienestar-laboral .events-content .views-row p {
-  display: inline; }
-
-.site-bienestar-laboral .events-content .views-row img {
-  /*width: 30%;*/ }
-
-.site-bienestar-laboral .events-content .views-row a, .site-bienestar-laboral .events-content .views-row p {
-  width: 70%; }
-
-.site-bienestar-laboral .preschool-home-content .col-md-4.bg-white {
-  width: 32%; }
-
-.site-bienestar-laboral .preschool-home-content .col-md-8.bg-white {
-  width: 65%;
-  margin-right: 15px; }
-
-.site-bienestar-laboral .library {
-  display: block;
-  background: url("../img/bg-library.jpg") no-repeat;
-  height: 370px;
-  margin: 15px 0; }
-
-.site-bienestar-laboral .library span {
-  -webkit-font-smoothing: initial !important;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.2);
-  line-height: 33px;
-  color: #4b396d;
-  margin: 0px -15px;
-  padding: 5px 20px;
-  display: inline-block;
-  font-size: 22px; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents h3 {
-  margin: 0 -15px !important;
-  padding: 10px 20px;
-  width: 320px; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents ul li {
-  background: #b2e6f9;
-  margin: 10px 0;
-  height: 88px; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents .boddy-doc {
-  width: 57%;
-  display: inline-block;
-  height: 85px;
-  overflow: hidden; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents .boddy-doc p {
-  padding: 0px;
-  margin: 5px !important; }
-
-.site-bienestar-laboral .preschool-home-content .bg-white.tecnical-documents .dwd-icon {
-  width: 22%;
-  display: flex;
-  background: #5bd6c1 center / contain;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  font-weight: 500; }
-
-.site-bienestar-laboral .tabs-childrens .pane-content .item-list {
-  margin-top: 20px; }
-
-.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li {
-  top: 0px !important;
-  border: none;
-  /*border-bottom: 1px solid #b3b3b3;*/
-  background: #ffffff;
-  line-height: 40px; }
-
-.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li.active {
-  border: 1px solid #b3b3b3;
-  border-bottom: none;
-  -webkit-border-radius: 0;
-  border-radius: 0; }
-
-.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul {
-  border: none;
-  border-bottom: 1px solid #ccc;
-  height: 45px; }
-
-.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li a {
-  border-bottom: none;
-  text-decoration: none; }
-
-.site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li a:hover, .site-bienestar-laboral .tabs-childrens .pane-content .item-list > ul > li a:focus {
-  text-decoration: none; }
-
-.site-bienestar-laboral .tabs-childrens .quicktabs_main {
-  padding: 20px;
-  margin: 0px;
-  border: 1px solid #b3b3b3;
-  margin-top: -1px;
-  border-top: 0px; }
-
-.site-bienestar-laboral .section_content p {
-  margin-top: 10px !important;
-  color: #666666 !important; }
-
-.site-bienestar-laboral .section_content p.lead {
-  font-size: 18px;
-  margin: 10px 20px !important; }
-
-/*Ni├▒os y ni├▒as*/
-.site-bienestar-laboral .modal-cont-boys-girls {
-  background: #a6e2f4 url(../img/bg-ninos-ninas.png) no-repeat center bottom;
-  position: relative;
-  top: -100px;
-  min-height: 650px; }
-
-.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-2.col-md-3.lateral-panel {
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
-.contextual-links-region.panel-pane.pane-views-panes.pane-bienestarlaboral-panel-pane-3.col-md-9.panel-content {
-  padding-bottom: 30px;
-  padding-top: 30px; }
-
+/**
+ * Base Styles
+ * --------------------------------------------------
+ */
 .site-bienestar-laboral div#microsite_panel {
   background-color: #ebf9f9; }
 
