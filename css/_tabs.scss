@@ -7,8 +7,9 @@
          a {
              background-color: $main-menu-bg;
              color: white;
-
-             &[aria-expanded="true"] {
+         }
+         li.active {
+             a {
                  background-color: white;
                  color: black;
              }

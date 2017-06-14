@@ -855,7 +855,8 @@ h1.logo {
   align-items: center;
   border: 2px solid #a0a0a0 !important;
   border-radius: 10px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  overflow: hidden; }
   .site-bienestar-laboral .main-lateral-panel .views-row:hover {
     background: #e6e6e6 !important; }
     .site-bienestar-laboral .main-lateral-panel .views-row:hover .views-field-title span a {
@@ -991,9 +992,9 @@ h1.logo {
 .site-bienestar-laboral ul.nav.nav-tabs a {
   background-color: #F26E01;
   color: white; }
-  .site-bienestar-laboral ul.nav.nav-tabs a[aria-expanded="true"] {
-    background-color: white;
-    color: black; }
+.site-bienestar-laboral ul.nav.nav-tabs li.active a {
+  background-color: white;
+  color: black; }
 .site-bienestar-laboral .tab-content {
   background-color: white; }
 .site-bienestar-laboral div .tab-pane.fade {
