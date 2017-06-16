@@ -28,6 +28,9 @@
      }
      .home-content {
         .view-content {
+            p:first-child {
+                margin-top: 35px !important;
+            }
             ul {
                 padding-left: 40px !important;
             }
