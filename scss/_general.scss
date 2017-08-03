@@ -26,16 +26,18 @@
           color: $paragraph-text-color !important;
         }
      }
-     .home-content {
+     .home-content, .panel-content {
         .view-content {
             p:first-child {
                 margin-top: 35px !important;
             }
-            ul {
-                padding-left: 40px !important;
+            ul, ol {
+                margin: 0 !important;
+                padding: 5px 0 5px 30px !important;
             }
             li {
                 margin-top: 5px !important;
+                padding-left: 5px;
                 list-style: initial !important;
             }
             img {

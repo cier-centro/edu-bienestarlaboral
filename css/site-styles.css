@@ -559,14 +559,16 @@ h1.logo {
 .site-bienestar-laboral .section_content p {
   margin-top: 10px !important;
   color: #666666 !important; }
-.site-bienestar-laboral .home-content .view-content p:first-child {
+.site-bienestar-laboral .home-content .view-content p:first-child, .site-bienestar-laboral .panel-content .view-content p:first-child {
   margin-top: 35px !important; }
-.site-bienestar-laboral .home-content .view-content ul {
-  padding-left: 40px !important; }
-.site-bienestar-laboral .home-content .view-content li {
+.site-bienestar-laboral .home-content .view-content ul, .site-bienestar-laboral .home-content .view-content ol, .site-bienestar-laboral .panel-content .view-content ul, .site-bienestar-laboral .panel-content .view-content ol {
+  margin: 0 !important;
+  padding: 5px 0 5px 30px !important; }
+.site-bienestar-laboral .home-content .view-content li, .site-bienestar-laboral .panel-content .view-content li {
   margin-top: 5px !important;
+  padding-left: 5px;
   list-style: initial !important; }
-.site-bienestar-laboral .home-content .view-content img {
+.site-bienestar-laboral .home-content .view-content img, .site-bienestar-laboral .panel-content .view-content img {
   margin-top: 35px; }
 @media (min-width: 1100px) {
   .site-bienestar-laboral .main_container .section_content {
@@ -596,8 +598,7 @@ h1.logo {
 
 .site-bienestar-laboral .content h1 {
   margin-top: 30px;
-  font-size: 30px;
-  padding-left: 10px; }
+  font-size: 30px; }
 .site-bienestar-laboral .content h2 {
   font-size: 20px;
   color: #502280;
