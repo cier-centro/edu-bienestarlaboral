@@ -689,11 +689,11 @@ h1.logo {
     .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -90px -325px; }
+      background: url("../img/img-spritesheet.png") no-repeat -90px -325px; }
   .site-bienestar-laboral #bienestar_laboral_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -16px -325px; }
+    background: url("../img/img-spritesheet.png") no-repeat -16px -325px; }
   .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide, .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide img {
     width: 100% !important; }
   .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide label {
@@ -733,13 +733,13 @@ h1.logo {
         color: #5b5b5b !important;
         border: 2px solid #5b5b5b !important; }
         .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .btn-info:hover span {
-          background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -105px -200px !important; }
+          background: url("../img/img-spritesheet.png") no-repeat -105px -200px !important; }
       .site-bienestar-laboral #bienestar_laboral_home_slider .views_slideshow_slide > div .btn-info span {
         height: 27px;
         width: 27px;
         margin-left: 15px;
         float: right;
-        background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat -174px -25px; }
+        background: url("../img/img-spritesheet.png") no-repeat -174px -25px; }
   .site-bienestar-laboral #bienestar_laboral_home_slider .views-more-link {
     display: block;
     background: transparent;
@@ -890,7 +890,7 @@ h1.logo {
     .site-bienestar-laboral .main-lateral-panel .views-row .views-field-php .button-icon {
       display: block;
       height: 80px;
-      background: url("http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png") no-repeat;
+      background: url("../img/img-spritesheet.png") no-repeat;
       width: 100%; }
   .site-bienestar-laboral .main-lateral-panel .views-row:first-child .views-field-title {
     background: #b31b58;
@@ -974,16 +974,16 @@ h1.logo {
   height: 50px; }
 .site-bienestar-laboral .modal .modal-footer .bienestar-laboral-logo {
   float: left;
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-bienestarlaboral.png") no-repeat center/contain; }
+  background: url("../img/logo-bienestarlaboral.png") no-repeat center/contain; }
 .site-bienestar-laboral .modal .modal-footer .new-country-logo {
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-nuevopais.png") no-repeat center/contain; }
+  background: url("../img/logo-nuevopais.png") no-repeat center/contain; }
 .site-bienestar-laboral .modal .modal-footer .mineducacion-logo {
-  background: url("http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png") no-repeat center/contain; }
+  background: url("../img/logo-mineducacion.png") no-repeat center/contain; }
 .site-bienestar-laboral .modal .modal-footer .new-country-logo, .site-bienestar-laboral .modal .modal-footer .mineducacion-logo {
   float: right; }
 @media (min-width: 768px) {
   .site-bienestar-laboral .modal .modal-body {
-    background: #f65600 url("http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png") no-repeat 101% -1px/50% auto !important; } }
+    background: #f65600 url("../img/img-modal-background.png") no-repeat 101% -1px/50% auto !important; } }
 @media (max-width: 767px) {
   .site-bienestar-laboral .modal .modal-footer > * {
     width: 33% !important; } }
@@ -1015,11 +1015,11 @@ h1.logo {
     text-align: initial;
     text-decoration: none;
     background-color: #01072b !important;
-    background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+    background: url("../img/img-spritesheetAccordion.png") no-repeat right;
     background-position: 100% -195px;
     border-radius: 8px 8px 5px 5px; }
     .site-bienestar-laboral .panel-default > .panel-heading > a[aria-expanded="true"] {
-      background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+      background: url("../img/img-spritesheetAccordion.png") no-repeat right;
       background-position: 100% -110px !important; }
     .site-bienestar-laboral .panel-default > .panel-heading > a > h4 {
       color: white;

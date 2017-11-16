@@ -59,13 +59,13 @@
             }
             .bienestar-laboral-logo {
                 float: left;
-                background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-bienestarlaboral.png') no-repeat center/contain;
+                background: url('#{$images-path}logo-bienestarlaboral.png') no-repeat center/contain;
             }
             .new-country-logo {
-                background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-nuevopais.png') no-repeat center/contain;
+                background: url('#{$images-path}logo-nuevopais.png') no-repeat center/contain;
             }
             .mineducacion-logo {
-                background: url('http://52.37.84.217/edu-bienestarlaboral/img/logo-mineducacion.png') no-repeat center/contain;
+                background: url('#{$images-path}logo-mineducacion.png') no-repeat center/contain;
             }
             .new-country-logo, .mineducacion-logo {
                 float: right;
@@ -74,7 +74,7 @@
 
         @media (min-width: 768px){
           .modal-body {
-              background: $main-menu-parent-hover-bg url('http://52.37.84.217/edu-bienestarlaboral/img/img-modal-background.png') no-repeat 101% -1px / 50% auto !important;
+              background: $main-menu-parent-hover-bg url('#{$images-path}img-modal-background.png') no-repeat 101% -1px / 50% auto !important;
           }
         }
         @media (max-width: 767px){

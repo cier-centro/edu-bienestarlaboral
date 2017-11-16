@@ -13,12 +13,12 @@
                 text-align: initial;
                 text-decoration: none;
                 background-color: $site-bg !important;
-                background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+                background: url("#{$images-path}img-spritesheetAccordion.png") no-repeat right;
                 background-position: 100% -195px;
                 border-radius: 8px 8px 5px 5px;
 
                 &[aria-expanded="true"] {
-                    background: url(http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheetAccordion.png) no-repeat right;
+                    background: url("#{$images-path}img-spritesheetAccordion.png") no-repeat right;
                     background-position: 100% -110px !important;
                 }
                 & > h4 {

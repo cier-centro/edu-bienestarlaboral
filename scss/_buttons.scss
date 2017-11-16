@@ -70,7 +70,7 @@
               .button-icon {
                   display: block;
                   height: 80px;
-                  background: url('http://52.37.84.217/edu-bienestarlaboral/img/img-spritesheet.png') no-repeat;
+                  background: url('#{$images-path}img-spritesheet.png') no-repeat;
                   width: 100%;
               }
             }
